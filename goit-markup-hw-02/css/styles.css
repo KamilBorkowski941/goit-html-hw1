@@ -1,0 +1,33 @@
+.whole-page {
+}
+.link-no-underline {
+}
+.link-style {
+}
+.text-blue {
+}
+.white-style-logo {
+}
+.contact-link-style {
+}
+.contacts-style {
+}
+.footer-container {
+}
+.nav-style {
+}
+.nav-list {
+}
+.header-separator {
+}
+.button-type {
+  background-color: var(--notwhite);
+  border-width: 0;
+  height: 38px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  border-radius: 3px;
+  padding: 6px 22px;
+  font-family: "Roboto";
+}
