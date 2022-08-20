@@ -121,6 +121,9 @@ div {
   font-size: 16px;
   margin: 0 0 0 24px;
 }
+footer {
+  display: block;
+}
 .footer {
   width: 100%;
   background-color: var(--darkgrey);
@@ -136,6 +139,10 @@ div {
 .address-style {
   margin: 20px 0 0 0;
   font-style: normal;
+}
+address {
+  display: block;
+  font-style: italic;
 }
 .footer-type {
   color: var#ffffff99;
