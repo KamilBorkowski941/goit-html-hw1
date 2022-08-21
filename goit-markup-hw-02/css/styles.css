@@ -1,3 +1,16 @@
+:root {
+  --white: #fff;
+  --black: #000;
+  --blue: #2196f3;
+  --darkgrey: #2f303a;
+  --grey: #757575;
+  --lightgrey: #e5e5e5;
+  --lightcream: #ececec;
+  --notblack: #212121;
+  --notwhite: #f5f4fa;
+  --footerlinks: #ffffff99;
+  --productborder: #eeeeee;
+}
 body {
   font-family: "Roboto", "Raleway", sans-serif;
   color: var(--grey);
@@ -14,6 +27,16 @@ body {
   width: 1600px;
   margin: 0 auto;
 }
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.footer-links:hover,
+.footer-links:focus,
+.blue-text:hover,
+.blue-text:focus {
+  color: var(--blue);
+}
 .header {
   align-items: center;
   gap: 93px;
@@ -24,14 +47,9 @@ body {
 header {
   display: block;
 }
-.container {
-  width: 1200px;
-  margin: 0 auto;
-}
 a:-webkit-any-link {
   color: -webkit-link;
   cursor: pointer;
-  text-decoration: underline;
 }
 .link-no-underline {
   text-decoration: none;
@@ -58,6 +76,9 @@ ul {
   margin-inline-end: 0px;
   padding-inline-start: 40px;
 }
+.nobull {
+  list-style-type: none;
+}
 .nav-style {
   gap: 46px;
   line-height: 1.2;
@@ -83,6 +104,13 @@ ul {
 }
 div {
   display: block;
+}
+.buttons-type {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 94px;
+  list-style: none;
 }
 .button-type {
   background-color: var(--notwhite);
@@ -115,11 +143,13 @@ div {
   letter-spacing: 0.06em;
   line-height: 2;
   margin: 20px 0 4px 24px;
+  text-decoration: none;
 }
 .portfolio-part-info {
   line-height: 1.88;
   font-size: 16px;
   margin: 0 0 0 24px;
+  text-decoration: none;
 }
 footer {
   display: block;
